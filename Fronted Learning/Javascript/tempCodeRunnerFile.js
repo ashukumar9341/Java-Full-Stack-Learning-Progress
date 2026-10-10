@@ -1,5 +1,2 @@
-
-// let valueInNumber = Number(score)
-// console.log(typeof score);
-// console.log(typeof valueInNumber);  
-// console.log(valueInNumber); 
+const allFav = favHeros.concat(favFood)
+// console.log(allFav);
