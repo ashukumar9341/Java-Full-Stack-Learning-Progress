@@ -32,6 +32,4 @@
  1. Situation: Website load hote hi database connection initialize karna
 (Maan lo tum ek application bana rahe ho aur chahte ho ki initialization code turant execute ho.)
 
-
-
 */
