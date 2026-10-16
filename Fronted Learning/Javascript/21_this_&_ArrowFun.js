@@ -53,7 +53,7 @@ chai()
 const addTwo = (num1, num2) => (num1 + num2)
 /* note
  if we are using curely braces then we have to use return keyword while if we are using paranthesis then no need write return  keyword */
-const addTwo = (num1, num2) => ({ username: "Ashu" })
+//const addTwo = (num1, num2) => ({ username: "Ashu" })
 console.log(addTwo(7, 9));
 
 /* explecit return : jb return keyword use karna hi pre

@@ -1,4 +1,29 @@
 ```
+├── Fronted Learning
+    ├── CSS
+    │   ├── BOX Model
+    │   │   └── index.html
+    │   ├── CSS Animation
+    │   │   └── index.html
+    │   ├── CSS Display property
+    │   │   └── index.html
+    │   ├── CSS Flexbox
+    │   │   ├── index.html
+    │   │   ├── notes
+    │   │   └── style.css
+    │   ├── CSS Grid
+    │   │   ├── Grid Templete area.png
+    │   │   ├── grid-1.html
+    │   │   ├── grid-2.html
+    │   │   └── style.css
+    │   ├── CSS Media Quary
+    │   │   ├── index.html
+    │   │   └── style.css
+├── ...
+[View full structure →](fs-full.md)
+```
+
+```
 ├── HTML
     ├── Audio,video & media
     │   ├── audio.mpeg
