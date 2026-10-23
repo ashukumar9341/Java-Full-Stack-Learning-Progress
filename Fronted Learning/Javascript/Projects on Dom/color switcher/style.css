@@ -1,0 +1,33 @@
+.H1 {
+    margin: 35px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.button {
+    margin: 35px;
+    padding: 30px;
+    border: 2px solid black;
+    display: inline-block;
+
+}
+
+#black {
+    background-color: rgb(151, 146, 146);
+}
+
+#blue {
+    background-color: rgb(152, 152, 228);
+}
+
+#beige {
+    background-color: beige;
+}
+
+#red {
+    background-color: rgb(218, 165, 165);
+}
+
+#yellow {
+    background-color: rgb(242, 242, 145);
+}

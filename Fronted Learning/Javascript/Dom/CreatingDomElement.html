@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:#212121; color : #ffff ;">
+  
+    
+</body>
+<script>
+  const div =  document.createElement('div')
+  console.log(div);
+  div.className = "main"
+  div.id = "myId"
+  div.setAttribute("title","generated title")
+  div.style.backgroundColor = "green"
+  //div.innerText = "Ashu" // ye purane koi ashu ke paas jake uska waha se lakar replace 
+ const addText = document.createTextNode("Ashu") // khud ka node list create kiye hai
+ div.appendChild(addText)
+
+ document.body.appendChild(div)
+</script>
+</html>

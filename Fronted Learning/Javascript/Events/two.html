@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chai aur code</h1>
+    <button id="stop">Stop</button>
+    <script>
+        // setTimeout(function(){
+        //     console.log("Ashu");
+            
+        // },2000)
+        const sayAshu = function(){
+            console.log("hlo Ashu");
+            
+        }
+        // setInterval(sayAshu,2000)
+      const chaneText = function(){
+        document.querySelector('h1').innerHTML = "best js series"
+      }
+     const changeMe = setTimeout(chaneText,2000)
+      
+
+      document.querySelector('#stop').addEventListener('click',function(){
+        clearTimeout(changeMe) //clearTimeout ko chahiye refrance ki con se set time ko hatana chahte hai kyuki bhut sare timeout ho sakte hai
+        console.log("stopped");
+        
+      })
+    </script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+
+.toggle{
+    display: inline-flex;
+    gap: 5px;
+    padding: 5px;
+    margin: 50px;
+    background-color: rgb(94, 94, 101);
+   border-radius: 16px;
+    display: flex;
+    justify-content: flex-end;
+   
+}
+/* .active{
+     border-radius: 12px;  
+} */
+ .toggle button{
+    padding: 12px 22px;
+    border-radius: 12px;
+    border: none;
+    font-size: 25px;
+   
+ }
+ .toggle button.active{
+    background-color: #7762f6;
+   color: white;
+ }
+ .country{
+    padding: 12px ;
+    padding-left: 45px;
+    font-size: 25px;
+ }
+ .form{
+    padding-left: 45px;
+    font-size: medium;
+    
+ }
+.clockContainer{
+    height: 220px;
+    width: 320px;
+    border: 2px solid rgb(11, 10, 10);
+    background-color: dimgrey;
+
+
+}
+
+#ditalClock{
+    display: flex;
+    justify-content: center;
+    font-size: 75px;
+    color: rgb(220, 146, 56);
+}

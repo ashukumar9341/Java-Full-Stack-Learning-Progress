@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #292929; color: aliceblue;">
+    <ul class="language">
+        <li>javascript</li>
+    </ul>
+</body>
+<script>
+    function addLanguage(langName){
+        const li = document.createElement('li')
+        li.innerHTML = `${langName}`
+        document.querySelector('.language').appendChild(li)
+    }
+    //isme problem ye hai ki appendchild ke liye pura tree traverse karna parta hai .jitna baar yr method chalega utna baar tree traverse karna parega
+    addLanguage("java")
+    addLanguage("python")
+
+    function addOptLanguage(langName){
+       const li = document.createElement('li')
+       li.appendChild(document.createTextNode(langName)) //ek new textNode create karke directly li me inject kar diya
+       document.querySelector('.language').appendChild(li)
+    }
+    //isme sidha li create kiye textNode insert kiye (tree traverse nhi karna pra)
+    addOptLanguage("rust")
+    //*************** Edit ******************* 
+    const secLang = document.querySelector("li:nth-child(2)")
+   // console.log(secLang);
+    
+   // secLang.innerHTML = "Ashu"
+   const newLi = document.createElement('li')
+   newLi.textContent = "Abhinav"
+   secLang.replaceWith(newLi)
+
+//edit 
+const FirstLang = document.querySelector("li:nth-child(1)")
+//console.log(FirstLang);
+FirstLang.outerHTML = '<li>typescript</li>'
+// const newFirst = document.createElement('li')
+// newFirst.textContent = "typescript"
+// FirstLang.replaceWith(newFirst)
+
+//*********** remove *********
+const lastLang = document.querySelector("li:nth-child(4)")
+lastLang.remove()
+</script>
+</html>
