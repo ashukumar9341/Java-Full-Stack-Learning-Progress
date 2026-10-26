@@ -1,17 +1,16 @@
 // //promise creation
 // const promisesOne = new Promise(function(resolve,reject){
 //     //Do an async task
-//     //DB calls , cryptography , a=network call
+//     //DB calls , cryptography , network call
 //     setTimeout(function(){
 //         console.log('Async task is complete');
 //         resolve()
 //     },1000)
 // })
 
-// //promise consumption
+// //promise consumption :- promise complete hone ke baad result ke saath kaam karna
 // promisesOne.then(function(){
 //     console.log("promise consumed");
-    
 // })
 
 // // new Promise(function(resolve,reject){
@@ -109,3 +108,23 @@ fetch('https://jsonplaceholder.typicode.com/users')
 })
 .catch((error) => {console.log(error);
 })
+/*1. Pehle fetch() ko samajh
+const response = await fetch(URL);
+
+
+fetch() server ko request bhejta hai. Server ka response aane mein time lagta hai, isliye fetch() ek Promise return karta hai.
+
+await us Promise ke fulfill hone ka wait karta hai. Uske baad response mein HTTP Response object aata hai.
+
+Lekin bhai, abhi users ka actual data nikaala nahi hai! 😄
+2. Ab response.json() kyun?
+const data = await response.json();
+
+
+Server se jo response aaya hai, uski body ko abhi read aur parse karna hai.
+
+Yahan do important baatein hain:
+- response.json() response ki body ko read karke JSON ko JavaScript value mein convert karta hai.
+- response.json() khud bhi ek Promise return karta hai, kyunki body ko read karne mein time lag sakta hai.
+Isliye yahan bhi await chahiye.
+*/ 

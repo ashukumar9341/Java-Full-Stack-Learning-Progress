@@ -5,7 +5,7 @@ let myDate = new Date()
 // console.log(myDate.toISOString());
 // console.log(myDate.toJSON());
 // console.log(myDate.getFullYear());
-// console.log(myDate.toLocaleDateString());
+console.log(myDate.toLocaleDateString());
 // console.log(myDate.toLocaleString());
 // console.log(typeof myDate);
 
@@ -29,3 +29,4 @@ newDate.toLocaleString('default',{
     weekday:"long",
     
 })
+
