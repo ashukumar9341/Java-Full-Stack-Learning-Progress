@@ -1,7 +1,7 @@
 const User = {
     _email: 'ashu@', 
     _password:'abc', // private using _
-
+                                    
     get email(){ //get ka kaam memeory se leke aana aur chor ke aane ka 
         return this._email.toUpperCase()
     },
