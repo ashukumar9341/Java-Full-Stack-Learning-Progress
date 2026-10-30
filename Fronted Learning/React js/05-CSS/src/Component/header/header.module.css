@@ -1,0 +1,16 @@
+
+.Header{
+  background-color:aqua ;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: rgb(34, 32, 32);
+}
+.Header .button2{
+    background-color: blue;
+}
+.ashu{
+color: chocolate;
+}
+
