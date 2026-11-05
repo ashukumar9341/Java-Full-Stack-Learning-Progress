@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'helvetica neue';
+  color: #fff;
+}
+html,
+body{
+  height: 100%;
+  width: 100%;
+}
+input{
+  margin:10px;
+  padding: 10px 20px;
+  color: black;
+  font-size: larger;
+}
+.page1{
+  height: 100vh;
+  width: 100%;
+  background-color: #111;
+}
+.page1{
+  height: 100vh;
+  width: 100%;
+  background-color: #222;
+}
+.page1{
+  height: 100vh;
+  width: 100%;
+  background-color: #333;
+}

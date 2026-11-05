@@ -1,0 +1,18 @@
+
+# Ignore node_modules only in React projects 07 to 12
+
+/Frontend Learning/React js/07-Functions/node_modules/
+/Frontend Learning/React js/08-useState/node_modules/
+/Frontend Learning/React js/09-useState-advance/node_modules/
+/Frontend Learning/React js/10-form-handling/node_modules/
+/Frontend Learning/React js/11-two-way-binding/node_modules/
+/Frontend Learning/React js/12-notes-app/node_modules/
+
+# Ignore environment files in React projects 07 to 12
+
+/Frontend Learning/React js/07-Functions/.env*
+/Frontend Learning/React js/08-useState/.env*
+/Frontend Learning/React js/09-useState-advance/.env*
+/Frontend Learning/React js/10-form-handling/.env*
+/Frontend Learning/React js/11-two-way-binding/.env*
+/Frontend Learning/React js/12-notes-app/.env*
