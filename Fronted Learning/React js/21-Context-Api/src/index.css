@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html,
+body{
+  background-color: black;
+}
+
+.nav{
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 20px;
+  align-items: center;
+}
+.nav2{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+ 
+}
+.parent{
+  padding: 5px;
+  margin-top: 5px;
+}
+.light{
+  background-color: bisque;
+}
+.dark{
+  background-color: gray;
+}

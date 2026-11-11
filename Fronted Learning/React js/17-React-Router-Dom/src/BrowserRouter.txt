@@ -1,0 +1,25 @@
+study
+basic setup
+nested Routes
+dynamic Routes
+usenavigate
+404 page
+
+BrowserRouter :- 
+BrowserRouter routing ka environment provide karta hai. Routes aur Route decide karte hain ki kis URL par kaunsa component render hoga.
+BrowserRouter ek declarative router hai jo browser ki History API ka use karke React application mein client-side routing manage karta hai.
+
+ashu.com = /
+ashu.com/courses = /courses
+ashu.com/about = /about
+
+HashRouter:-
+
+MemoryRouter:-
+
+StaticRouter
+
+
+
+
+
